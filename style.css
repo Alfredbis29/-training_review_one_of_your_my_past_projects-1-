@@ -1,0 +1,47 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: serif;
+  background-image: url("milky-way.jpg");
+  color: white;
+}
+
+.heading {
+  font-size: 80px;
+}
+
+.image {
+  border-radius: 50px;
+}
+
+.description {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.img-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.tribute-info {
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  justify-content: center;
+  padding: 5%;
+}
